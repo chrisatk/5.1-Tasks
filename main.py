@@ -28,8 +28,7 @@ while True:
   print ("1 - Q1Pythagoras")
   print ("2 - Q2RandomRange")
   print ("3 - Q3")
-  print ("4 - Q4")
-  print ("5 - exit")
+  print ("4 - exit")
   task = input("My choice: ")
   if (task == "1"):
     Q1Pythagoras()
@@ -38,8 +37,6 @@ while True:
   elif (task == "3"):
     Q3Addition()
   elif (task == "4"):
-    print ("Not done yet")
-  elif (task == "5"):
     print("")
     print ("Goodbye!")
     break
