@@ -13,6 +13,16 @@ def Q2RandomRange():
   c = random.randrange(a, b)
   print ("Your random number in range is ",c)
 
+def Q3Addition():
+  a = random.randrange(1, 100)
+  b = random.randrange(1, 100)
+  c = input ("What is "+str(a)+" plus "+str(b)+"? ")
+  print("")
+  if (int(c) == (a+b)):
+    print ("Correct!")
+  else: 
+    print ("Better luck next time")
+
 while True:
   print ("Which task would you like to run? ")
   print ("1 - Q1Pythagoras")
@@ -26,10 +36,11 @@ while True:
   elif (task == "2"):
     Q2RandomRange()
   elif (task == "3"):
-    print ("Not done yet")
+    Q3Addition()
   elif (task == "4"):
     print ("Not done yet")
   elif (task == "5"):
+    print("")
     print ("Goodbye!")
     break
-  print (" ")
+  print ("")
